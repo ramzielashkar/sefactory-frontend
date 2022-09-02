@@ -389,3 +389,123 @@ width: 70%;
   display: flex;
   justify-content: center;
 }
+
+
+.quote{
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+
+.media{
+  padding-top:20px;
+  text-align: center;
+  background-color: lightgrey;
+  font-size: 25px;
+  font-family: sans-serif;
+  padding-bottom: 10px;
+
+}
+
+.media h1{
+  margin-bottom: 50px;
+  margin-top: 30px;
+}
+
+.medias{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+
+
+@media only screen and (max-width : 1000px){
+  .media h1{
+    margin-bottom: 50px;
+    margin-top: 10px;
+  }
+.medias{
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+}
+.medias img{
+  margin-bottom: 50px;
+
+}
+
+}
+
+
+.funding{
+  display: flex;
+  flex-direction: column;
+align-items: center;
+margin-top: 70px;}
+
+.funding h1{
+  font-size: 45px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+
+.color{
+  background-color: white;
+}
+
+.h1{
+  font-size: 45px;
+}
+
+.subscribe{
+  padding-top: 50px;
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: lightgrey;
+  padding-bottom: 50px;
+
+}
+
+
+.subscribe p{
+  font-size: 45px;
+  font-family: sans-serif;
+  max-width: 55%;
+  text-align: center;
+  margin-bottom: 40px;
+
+}
+.sub-btn{
+  width: 70px;
+
+}
+.sub{
+  width: 120px;
+  height: 40px;
+  background-color: black;
+  color: white;
+  border-radius: 7px;
+  border: none;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+
+
+.footer{
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  height: 150px;
+}
+
+
+.privacy a{
+  color:#0d0;
+  text-decoration: underline;
+}
