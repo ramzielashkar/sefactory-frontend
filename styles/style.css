@@ -500,9 +500,30 @@ margin-top: 70px;}
 .footer{
   background-color: black;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
   height: 150px;
 }
+
+
+.compon{
+  display: flex;
+  justify-content: space-around;
+
+}
+.copy{
+  color: white;
+  max-width: 50%;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.social{
+  display: flex;
+  justify-content: space-between;
+  width: 10%;
+  }
 
 
 .privacy a{
